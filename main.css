@@ -1,1 +1,45 @@
+body {
 
+	background-color: #333333;
+}
+
+header {
+	height: 65px;
+	background-color: #595959;
+}
+
+footer {
+	background-color: #595959;
+	padding-top: 12px;
+}
+
+#gameboard {
+	margin: 20px;
+}
+
+#play_button {
+	color: #ffffff;
+	font-size: 72px;
+	font-weight: bold;
+	z-index: 1;
+	margin-top: -725px;
+	margin-left: 60px;
+	margin-bottom: 450px;
+}
+
+#play_button h1 {
+	font-size: 156px;
+}
+
+section {
+	background-color: #f2f2f2;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+#rules {
+	/*padding: 12px;
+	background-color: #bfbfbf;*/
+	color: #000000;
+
+}
