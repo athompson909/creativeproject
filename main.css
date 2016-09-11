@@ -24,11 +24,12 @@ header a {
 	margin-right: -16px;
 }
 
+/*
 header a:hover {
 	background-color: #cccccc;
 	text-decoration: none;
 	color: black;
-}
+}*/
 
 footer {
 	background-color: #d9d9d9;
@@ -89,31 +90,33 @@ section {
 }
 
 #rules_button {
-	display: block;
+	/*display: block;*/
 	font-style: italic;
 	font-weight: lighter;
 }
 
+/*
 #rules_button:hover {
 
-	background-color: #cccccc;
+	background-color: #f2f2f2;
 	text-decoration: none;
 	color: black;
 }
 
 #footer:hover {
 
-	background-color: #cccccc;
+	background-color: #f2f2f2;
 	text-decoration: none;
 	color: black;
-}
+}*/
 
-a, a:visited {
+a, a:visited, a:link, a:active, #rules_button h3, #rules_button h3:visited {
 	color: #000000;
 	text-decoration: none;
+
 }
 
-a:hover {
+a:hover, #rules_button:hover, #footer:hover, header a:hover  {
 
 	background-color: #cccccc;
 	text-decoration: none;
