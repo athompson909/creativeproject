@@ -1,20 +1,41 @@
 body {
-
-	background-color: #333333;
+	background-color: #a6a6a6;
 }
 
 header {
 	height: 65px;
-	background-color: #595959;
+	background-color: #d9d9d9;
+	border: 1px solid #cccccc;
+}
+
+header nav {
+	margin-right: -12px;
+}
+
+header a {
+	position: relative;
+	top: 21px;
+	padding: 23.5px 12px 23.5px 12px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid #cccccc;
+	background-color: #d9d9d9;
+	margin-left: 8.5px;
+	margin-right: -16px;
+}
+
+header a:hover {
+	background-color: #cccccc;
+	text-decoration: none;
+	color: black;
 }
 
 footer {
-	background-color: #595959;
+	background-color: #d9d9d9;
 	padding-top: 12px;
-}
-
-#gameboard {
-	margin: 20px;
+	padding-bottom: 12px;
+	border: 1px solid #cccccc;
+	margin-top: -2px;
 }
 
 #play_button {
@@ -22,24 +43,79 @@ footer {
 	font-size: 72px;
 	font-weight: bold;
 	z-index: 1;
-	margin-top: -725px;
-	margin-left: 60px;
-	margin-bottom: 450px;
+	background-color: #000000;
+	margin-top: 20px;
 }
 
 #play_button h1 {
 	font-size: 156px;
+	color: #ffffff;
+}
+
+#title_box {
+	padding-left: 60px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+
+}
+
+#middle {
+	margin-top: -1px;
 }
 
 section {
 	background-color: #f2f2f2;
-	color: #ffffff;
 	font-size: 18px;
+	border: 1px solid #cccccc;
 }
 
 #rules {
 	/*padding: 12px;
 	background-color: #bfbfbf;*/
-	color: #000000;
+	display: none;
 
+}
+
+#buttons {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#rules, #rules_button {
+	border: 1px solid #cccccc;
+	padding-left: 8px;
+	padding-top: 4px;
+	padding-bottom: 12px;
+}
+
+#rules_button {
+	display: block;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+#rules_button:hover {
+
+	background-color: #cccccc;
+	text-decoration: none;
+	color: black;
+}
+
+#footer:hover {
+
+	background-color: #cccccc;
+	text-decoration: none;
+	color: black;
+}
+
+a, a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+
+	background-color: #cccccc;
+	text-decoration: none;
+	color: #000000;
 }
