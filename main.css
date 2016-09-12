@@ -122,3 +122,37 @@ a:hover, #rules_button:hover, #footer:hover, header a:hover  {
 	text-decoration: none;
 	color: #000000;
 }
+
+/*Styles for all game-related elements*/
+
+#checkerboard {
+	max-width: 90vh;
+	max-height: 90vh;
+	margin: auto;
+}
+
+.board-space {
+	width: auto;
+	height: auto;
+	max-width: 12.5%;
+	max-height: 12.5%;
+	float: left;
+}
+
+.possible-move {
+	cursor: pointer;
+}
+.player-token {
+	cursor: pointer;
+}
+
+#popup {
+	display: none;
+	position: absolute;
+	width: 50%;
+	height: 20%;
+	left: 25%;
+	top: 40%;
+	background: white;
+	text-align: center;
+}

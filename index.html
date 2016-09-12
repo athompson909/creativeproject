@@ -23,15 +23,19 @@
 	<section class="container" id="middle">
 		<div class="row">
 			<div class="col-sm-12" id="main">
-				<div id="play_button"><!--onclick()="switchDisplayToCheckerBoard()"-->
+				<div id="play_button" onclick="initialize()">
 					<div id="title_box">
 						<h1>CHECKERS!</h1>
 						CLICK TO PLAY...
 					</div>
 				</div>
-
-
-
+				<div id="checkerboard" style="display: none">
+					<div id="popup">
+						<span id="popup-msg"></span><br>
+						<a id="reset-game" onclick="initialize()">Play again</a>
+					</div>
+				</div>
+				<br>
 				<div id="buttons">
 
 					<a href="#" onclick="displayRules()" id="rules_button_a"><div id="rules_button">
@@ -39,7 +43,7 @@
 					</div></a>
 					
 
-					<!--<div id="rules">
+					<!--div id="rules">
 						<h3>THE RULES OF CHECKERS</h3>
 						<p>
 							Draughts (or checkers) is played by two opponents, on opposite sides of the gameboard. One player has the dark pieces; the other has the light pieces. Players alternate turns. A player may not move an opponent's piece. A move consists of moving a piece diagonally to an adjacent unoccupied square. If the adjacent square contains an opponent's piece, and the square immediately beyond it is vacant, the piece may be captured (and removed from the game) by jumping over it.
@@ -67,7 +71,7 @@
 							Once a game has been gridlocked, where only back and forth moves between same locations on the board avoid jumps, the player with the majority of free space wins the games.
 						</p>
 						<br><p><em>source: <a href="https://en.wikipedia.org/wiki/Draughts#General_rules">Wikipedia</a></em></p>
-					</div>-->
+					</div-->
 
 
 
