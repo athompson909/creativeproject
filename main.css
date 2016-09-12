@@ -6,16 +6,17 @@ header {
 	height: 65px;
 	background-color: #d9d9d9;
 	border: 1px solid #cccccc;
+	font-size: 16px;
 }
 
 header nav {
 	margin-right: -12px;
 }
 
-header a {
+header a, .title_h {
 	position: relative;
 	top: 21px;
-	padding: 23.5px 12px 23.5px 12px;
+	padding: 22px 16px 22px 16px;
 	text-decoration: none;
 	color: black;
 	border: 1px solid #cccccc;
@@ -23,13 +24,6 @@ header a {
 	margin-left: 8.5px;
 	margin-right: -16px;
 }
-
-/*
-header a:hover {
-	background-color: #cccccc;
-	text-decoration: none;
-	color: black;
-}*/
 
 footer {
 	background-color: #d9d9d9;
@@ -70,11 +64,12 @@ section {
 	border: 1px solid #cccccc;
 }
 
-#rules {
-	/*padding: 12px;
-	background-color: #bfbfbf;*/
+#rules, #history {
 	display: none;
+}
 
+.panel {
+	background-color: #ffffff;
 }
 
 #buttons {
@@ -82,41 +77,25 @@ section {
 	margin-bottom: 20px;
 }
 
-#rules, #rules_button {
+#rules, #history, .rules_button {
 	border: 1px solid #cccccc;
 	padding-left: 8px;
 	padding-top: 4px;
 	padding-bottom: 12px;
+	margin-bottom: 20px;
 }
 
-#rules_button {
-	/*display: block;*/
+.rules_button {
 	font-style: italic;
-	font-weight: lighter;
 }
 
-/*
-#rules_button:hover {
-
-	background-color: #f2f2f2;
-	text-decoration: none;
-	color: black;
-}
-
-#footer:hover {
-
-	background-color: #f2f2f2;
-	text-decoration: none;
-	color: black;
-}*/
-
-a, a:visited, a:link, a:active, #rules_button h3, #rules_button h3:visited {
+.grey_link, .grey_link:visited, .grey_link:link, .grey_link:active, .rules_button h3, .rules_button h3:visited {
 	color: #000000;
 	text-decoration: none;
 
 }
 
-a:hover, #rules_button:hover, #footer:hover, header a:hover  {
+a:hover, .rules_button:hover, #footer:hover, header a:hover  {
 
 	background-color: #cccccc;
 	text-decoration: none;
