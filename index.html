@@ -13,9 +13,9 @@
 	<header class="container" id="header">
 		<div class="row" id="header_row">
 			<nav class="col-sm-12 text-right">
-				<a href="#">AAAAAA</a>
-				<a href="#">BBBBBB</a>
-				<a href="#">CCCCCC</a>
+				<a href="https://simple.wikipedia.org/wiki/Checkers"; return false;" class="grey_link">Know the rules</a>
+				<a href="https://en.wikipedia.org/wiki/Draughts#General_rules" class="grey_link">Know the history</a>
+				<a href="https://fmjd.org/" class="grey_link">Learn more</a>
 			</nav>
 		</div>
 	</header>
@@ -23,27 +23,22 @@
 	<section class="container" id="middle">
 		<div class="row">
 			<div class="col-sm-12" id="main">
-				<div id="play_button" onclick="initialize()">
+				<div id="play_button"><!--onclick()="switchDisplayToCheckerBoard()"-->
 					<div id="title_box">
 						<h1>CHECKERS!</h1>
 						CLICK TO PLAY...
 					</div>
 				</div>
-				<div id="checkerboard" style="display: none">
-					<div id="popup">
-						<span id="popup-msg"></span><br>
-						<a id="reset-game" onclick="initialize()">Play again</a>
-					</div>
-				</div>
-				<br>
+
+
+
 				<div id="buttons">
 
-					<a href="#" onclick="displayRules()" id="rules_button_a"><div id="rules_button">
+					<a href="#" onclick="displayRules(); return false;" class="grey_link"><div class="rules_button grey_link">
 						<h3>READ THE RULES</h3>
 					</div></a>
-					
 
-					<!--div id="rules">
+					<div id="rules", class="panel">
 						<h3>THE RULES OF CHECKERS</h3>
 						<p>
 							Draughts (or checkers) is played by two opponents, on opposite sides of the gameboard. One player has the dark pieces; the other has the light pieces. Players alternate turns. A player may not move an opponent's piece. A move consists of moving a piece diagonally to an adjacent unoccupied square. If the adjacent square contains an opponent's piece, and the square immediately beyond it is vacant, the piece may be captured (and removed from the game) by jumping over it.
@@ -70,8 +65,22 @@
 						<p>
 							Once a game has been gridlocked, where only back and forth moves between same locations on the board avoid jumps, the player with the majority of free space wins the games.
 						</p>
-						<br><p><em>source: <a href="https://en.wikipedia.org/wiki/Draughts#General_rules">Wikipedia</a></em></p>
-					</div-->
+						<br><p><em>source: <a href="https://en.wikipedia.org/wiki/Draughts#General_rules" class="default_link">Wikipedia</a></em></p>
+					</div>
+
+
+
+
+					<a href="#" onclick="displayHistory(); return false;" class="grey_link"><div class="rules_button grey_link">
+						<h3>READ THE HISTORY OF CHECKERS</h3>
+					</div></a>
+
+					<div id="history" class="panel">
+						<h3>THE HISTORY OF CHECKERS</h3>
+						<p>Checkers dates back to the 12th century, in France. There are two main types of checkers played: the Anglo-American version (which originally came from France) and the Polish or continental version. The Anglo-American version is played on an 8x8 checkerboard with 12 pieces. The continental version (so-called because it is played on the continent of Europe) is played on a 10x10 board with 20 pieces each. There are also a number of variations in various countries.</p>
+						</p>
+						<br><p><em>source: <a href="https://simple.wikipedia.org/wiki/Checkers" class="default_link">Wikipedia</a></em></p>
+					</div>
 
 
 
@@ -83,7 +92,7 @@
 		
 
 
-	<a href="#" onclick="goToTop()"><footer class="container" id="footer">
+	<a href="#" onclick="goToTop(); return false;" class="grey_link"><footer class="container" id="footer">
 		<div class="row">
 			<nav class="col-sm-12 text-right">
 				<img src="http://www.clker.com/cliparts/b/k/P/S/z/S/up-grey-arrow-md.png" width=45px>
