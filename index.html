@@ -23,12 +23,20 @@
 	<section class="container" id="middle">
 		<div class="row">
 			<div class="col-sm-12" id="main">
-				<div id="play_button"><!--onclick()="switchDisplayToCheckerBoard()"-->
-					<div id="title_box">
-						<h1>CHECKERS!</h1>
-						CLICK TO PLAY...
-					</div>
-				</div>
+				<div id="play_button" onclick="initialize()">
+  					<div id="title_box">
+  						<h1>CHECKERS!</h1>
+  						CLICK TO PLAY...
+  					</div>
+  				</div>
+  				
+  				<div id="checkerboard" style="display: none">
+ +					<div id="popup">
+ +						<span id="popup-msg"></span><br>
+ +						<a id="reset-game" onclick="initialize()">Play again</a>
+ +					</div>
+ +				</div>
+ +				<br>
 
 
 
