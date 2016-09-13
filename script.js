@@ -54,6 +54,8 @@ this.p2_tokens;
 
 function initialize()
 {
+	$('#checkerboard_section').show();
+
 	this.squares = [];
 	this.p1_tokens = 0;
 	this.p2_tokens = 0;
