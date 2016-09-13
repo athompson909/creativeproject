@@ -103,6 +103,7 @@ a:hover, .rules_button:hover, #footer:hover, header a:hover  {
 }
 
 #checkerboard_section {
+	display: none;
 	width: 100%;
 	margin-top: 20px;
 	padding-top: 20px;
