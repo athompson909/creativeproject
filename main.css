@@ -102,6 +102,11 @@ a:hover, .rules_button:hover, #footer:hover, header a:hover  {
 	color: #000000;
 }
 
+#checkerboard_padding {
+	width: 100%;
+	background-color: #000000;
+}
+
 /*Styles for all game-related elements*/
 
 #checkerboard {
